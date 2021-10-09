@@ -1,4 +1,4 @@
-package com.ascemme.timetocook;
+package com.ascemme.cookingtime2;
 
 import org.junit.Test;
 

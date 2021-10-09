@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="layout">#FFFBE9F6</color>
+    <color name="button_Start">#FFBBB2FA</color>
+    <color name="buttonStart">#FFEF817E</color>
+    <color name="themes">#FFF8D3EC</color>
+    <color name="navigationBar">#FFD6D0FC</color>
+    <color name="button_is_active">#FF8B7BF7</color>
 </resources>

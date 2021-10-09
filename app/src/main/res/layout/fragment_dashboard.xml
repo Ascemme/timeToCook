@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/layout"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <TextView
+        android:id="@+id/textDashboard"
+        android:layout_width="230sp"
+        android:layout_height="70sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="120sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginEnd="20sp"
+        android:background="@color/white"
+        android:maxWidth="200sp"
+        android:maxLines="3"
+        android:text="text"
+        android:textSize="20sp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageViewChaf"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/chaf" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="120sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="120sp"
+        android:src="@drawable/circler" />
+
+    <ImageView
+        android:layout_width="20sp"
+        android:layout_height="80sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150sp"
+        android:layout_marginEnd="150sp"
+        android:layout_marginBottom="100dp"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/ic_baseline_navigation_24"
+        android:layout_toEndOf="@+id/imageView2"/>
+
+    <Button
+        android:id="@+id/btm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20sp" />
+
+
+
+</RelativeLayout>
